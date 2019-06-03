@@ -1,0 +1,22 @@
+{
+  "name": "RTViewStartTime",
+  "version": "0.1.0",
+  "title": "SL Start Timer",
+  "type": "flogo:activity",
+  "description": "An activity to return the start time of for the timer.",
+  "ref": "github.com/ewilliams/rtview-flogo/activity/startime",
+  "author": "Everett Williams",
+  "inputs":[
+    {
+      "name": "Target",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "outputs": [
+    {
+      "name": "starttime",
+      "type": "int"
+    }
+  ]
+}
