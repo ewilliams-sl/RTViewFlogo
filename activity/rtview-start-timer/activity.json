@@ -4,7 +4,7 @@
   "title": "SL Start Timer",
   "type": "flogo:activity",
   "description": "An activity to return the start time of for the timer.",
-  "ref": "github.com/ewilliams/rtview-flogo/activity/startime",
+  "ref": "github.com/ewilliams/rtview-flogo/activity/rtview-start-time",
   "author": "Everett Williams",
   "inputs":[
     {
