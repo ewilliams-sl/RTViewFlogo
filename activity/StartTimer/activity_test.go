@@ -1,4 +1,4 @@
-package package rtview-start-timer
+package StartTimer
 
 import (
 	"io/ioutil"
