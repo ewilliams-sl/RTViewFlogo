@@ -218,6 +218,7 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 //	}
 //	rslt := string(cmdOut)
 	// Set the result as part of the context
+
 //	result := "starttime"
 //	iStartTime := 100000
 //	context.SetOutput(result, iStartTime)
