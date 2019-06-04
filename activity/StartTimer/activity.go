@@ -219,7 +219,7 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 //	rslt := string(cmdOut)
 	// Set the result as part of the context
 	result := "starttime"
-	iStartTime := makeTimestamp()
+	iStartTime := 100000
 	context.SetOutput(result, iStartTime)
 
 	// Signal to the Flogo engine that the activity is completed
