@@ -224,6 +224,7 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 
 	// Signal to the Flogo engine that the activity is completed
 	return true, nil
+	
 }
 
 func WordCount(s string) map[string]int {
