@@ -16,7 +16,7 @@
   "outputs": [
     {
       "name": "starttime",
-      "type": "int"
+      "type": "int64"
     }
   ]
 }
