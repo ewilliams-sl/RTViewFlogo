@@ -9,12 +9,12 @@
   "inputs":[
     {
       "name": "Min",
-      "type": "any",
+      "type": "int",
       "required": true
     },
    {
       "name": "Rnd",
-      "type": "any",
+      "type": "int",
       "required": true
     } 
 ],
