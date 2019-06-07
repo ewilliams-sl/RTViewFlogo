@@ -1,4 +1,4 @@
-package StartTimer
+package Sleeper
 
 import (
 	"encoding/json"

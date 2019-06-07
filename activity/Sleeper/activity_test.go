@@ -1,4 +1,4 @@
-package StartTimer
+package Sleeper
 
 import (
 	"io/ioutil"

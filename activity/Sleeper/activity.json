@@ -1,9 +1,9 @@
 {
-  "name": "RTViewStartTime",
+  "name": "RTViewSleeper",
   "version": "0.1.0",
-  "title": "Start Timer",
+  "title": "Sleeper Timer",
   "type": "flogo:activity",
-  "description": "An activity to return the start time of for the timer.",
+  "description": "An activity to Sleep for a random number of Seconds",
   "ref": "github.com/ewilliams-sl/RTViewFlogo/activity/Sleeper",
   "author": "Everett Williams",
   "inputs":[
