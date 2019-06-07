@@ -4,7 +4,7 @@
   "title": "Start Timer",
   "type": "flogo:activity",
   "description": "An activity to return the start time of for the timer.",
-  "ref": "github.com/ewilliams/RTViewFlogo/activity/StartTimer",
+  "ref": "github.com/ewilliams-sl/RTViewFlogo/activity/StartTimer",
   "author": "Everett Williams",
   "inputs":[
     {
