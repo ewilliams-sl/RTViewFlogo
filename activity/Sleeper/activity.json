@@ -1,0 +1,29 @@
+{
+  "name": "RTViewStartTime",
+  "version": "0.1.0",
+  "title": "Start Timer",
+  "type": "flogo:activity",
+  "description": "An activity to return the start time of for the timer.",
+  "ref": "github.com/ewilliams-sl/RTViewFlogo/activity/Sleeper",
+  "author": "Everett Williams",
+  "inputs":[
+    {
+      "name": "Min",
+      "type": "any",
+      "required": true
+    },
+   {
+      "name": "rnd",
+      "type": "any",
+      "required": true
+    } 
+],
+  "outputs": [
+    {
+      "name": "starttime",
+      "type": "any"
+    }
+  ]
+}
+
+
