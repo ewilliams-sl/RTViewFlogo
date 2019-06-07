@@ -51,8 +51,11 @@ func (a *MyActivity) Metadata() *activity.Metadata {
 // Eval implements activity.Activity.Eval
 func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 
-	iMin := context.GetInput(spMinMillis).(int)
-	iRnd := context.GetInput(spRndMillis).(int)
+	fMin := context.GetInput(spMinMillis).(float64)
+	fRnd := context.GetInput(spRndMillis).(float64)
+	
+	iMin := int(fMin)
+	iRnd := int(fRnd)
 	
 	sleepFor(iMin, iRnd)
 
