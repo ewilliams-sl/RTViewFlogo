@@ -1,12 +1,12 @@
 package Sleeper
 
 import (
-	"encoding/json"
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
 	"github.com/TIBCOSoftware/flogo-lib/logger"
 	"strings"
 	"time"
-	"fmt"
+	"math/rand"
+
 )
 
 // Constants
@@ -51,10 +51,10 @@ func (a *MyActivity) Metadata() *activity.Metadata {
 // Eval implements activity.Activity.Eval
 func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 
-	iMin := context.GetInput(spMinMillis).(int64)
-	iRnd := context.GetInput(spRndMillis).(int64)
+	iMin := context.GetInput(spMinMillis).(int)
+	iRnd := context.GetInput(spRndMillis).(int)
 	
-	sleepFor(iMn, iRnd)
+	sleepFor(iMin, iRnd)
 
 	// Signal to the Flogo engine that the activity is completed
 	return true, nil
