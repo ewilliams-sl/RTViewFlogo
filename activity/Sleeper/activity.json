@@ -13,7 +13,7 @@
       "required": true
     },
    {
-      "name": "rnd",
+      "name": "Rnd",
       "type": "any",
       "required": true
     } 
