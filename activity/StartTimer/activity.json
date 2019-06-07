@@ -3,16 +3,10 @@
   "version": "0.1.0",
   "title": "Start Timer",
   "type": "flogo:activity",
-  "description": "An activity to return the start time of for the timer.",
+  "description": "An activity to return the start time for the timer.",
   "ref": "github.com/ewilliams-sl/RTViewFlogo/activity/StartTimer",
   "author": "Everett Williams",
-  "inputs":[
-    {
-      "name": "Target",
-      "type": "string",
-      "required": true
-    }
-  ],
+
   "outputs": [
     {
       "name": "starttime",
