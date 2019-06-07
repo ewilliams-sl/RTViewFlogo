@@ -17,13 +17,7 @@
       "type": "any",
       "required": true
     } 
-],
-  "outputs": [
-    {
-      "name": "starttime",
-      "type": "any"
-    }
-  ]
+	]
 }
 
 
