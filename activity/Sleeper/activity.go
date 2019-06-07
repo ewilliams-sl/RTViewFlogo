@@ -2,8 +2,6 @@ package Sleeper
 
 import (
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
-	"github.com/TIBCOSoftware/flogo-lib/logger"
-	"strings"
 	"time"
 	"math/rand"
 
@@ -13,12 +11,9 @@ import (
 const (
 	spMinMillis = "Min"
 	spRndMillis = "Rnd"
-	params  = "params"
-	result  = "result"
 )
 
-// log is the default package logger which we'll use to log
-var log = logger.GetLogger("activity-setQoS")
+
 
 // MyActivity is a stub for your Activity implementation
 type MyActivity struct {
@@ -62,31 +57,4 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 	// Signal to the Flogo engine that the activity is completed
 	return true, nil
 	
-}
-
-func WordCount(s string) map[string]int {
-	words := strings.Fields(s)
-	m := make(map[string]int)
-	for _, word := range words {
-		m[word] += 1
-	}
-	return m
-}
-
-func split(tosplit string, sep rune) []string {
-	var fields []string
-
-	last := 0
-	for i, c := range tosplit {
-		if c == sep {
-			// Found the separator, append a slice
-			fields = append(fields, string(tosplit[last:i]))
-			last = i + 1
-		}
-	}
-
-	// Don't forget the last field
-	fields = append(fields, string(tosplit[last:]))
-
-	return fields
 }
