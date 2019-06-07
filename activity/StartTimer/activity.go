@@ -3,7 +3,6 @@ package StartTimer
 import (
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
 	"time"
-	"fmt"
 )
 
 // Constants
