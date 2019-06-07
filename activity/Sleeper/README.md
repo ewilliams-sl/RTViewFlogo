@@ -1,5 +1,5 @@
 # Execute a shell script
-This activity provides your Flogo application with the ability to execute shell or bash scripts.
+This activity provides a pause time for to vary the simulation execution times
 
 # Installation
 ```

@@ -1,5 +1,5 @@
 # Execute a shell script
-This activity provides your Flogo application with the ability to execute shell or bash scripts.
+This Activity returns the current time for the execution of the Thread.
 
 # Installation
 ```
